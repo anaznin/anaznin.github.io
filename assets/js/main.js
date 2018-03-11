@@ -109,7 +109,7 @@ $('a[href*="#"]')
         }
     });
 
-var videoUrls = ["https://www.youtube.com/embed/ED6Nv8-5wJM", "https://www.youtube.com/embed/iEWriN6kh3c", "https://www.youtube.com/embed/DnL6FIiEuH0"];
+var videoUrls = ["https://www.youtube.com/embed/ED6Nv8-5wJM", "https://www.youtube.com/embed/iEWriN6kh3c", "https://www.youtube.com/embed/jicYbi-8ZNU"];
 var vidIndex = 0;
 var vidElement = document.getElementById("embedded-vid");
 function backVid() {
