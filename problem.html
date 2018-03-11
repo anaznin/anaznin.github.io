@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
   </head>
-  <body class="landing">
+  <body>
 
     <!-- Header -->
     <header id="header">
@@ -30,6 +30,40 @@
     </header>
 
     <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+      <div class="container">
+
+        <header class="major special">
+          <center>
+            <h2>The Problem</h2>
+          </center>
+        </header>
+
+        <div id="vid-row" class="row" style="display: flex;">
+          <div class="1u vid-nav">
+            <a href="#vid-row" onclick="backVid()"><img width="100%" src="images/back-button.png"></a>
+          </div>
+          <div class="10u">
+            <center>
+              <iframe id="embedded-vid" src="https://www.youtube.com/embed/ED6Nv8-5wJM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </center>
+          </div>
+          <div class="1u vid-nav">
+            <a href="#vid-row" onclick="nextVid()"><img width="100%" src="images/next-button.png"></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="12u">
+            <p>	Despite New York City being one of the wealthiest cities on the planet, low-income neighborhoods are going hungry and suffering nutritionally. With the rise of industrialized agriculture, modern industrial crops are bred for high yield, ease of transport, cheaper production, and fast growth, rather than for nutrient content. Like much of the industrialized world, the US is in the midst of an alarming obesity epidemic: the prevalence of obesity in US adults in 2009-2010 was 35%, while 60% of Americans are now classified as overweight. With the obesity epidemic comes chronic diseases, such as Type II diabetes, heart disease, and stroke, all of which have been linked to the so-called “Western” diet: a diet full of high fat and processed meats, carbohydrate- and salt-laden junk food, and sodas sweetened with high fructose corn syrup. Though sustainably-grown unprocessed food, such as whole grains, legumes, and fresh fruits and vegetables, may be available in middle and upper-class communities, such food is not available to many populations in New York City. There is a direct correlation between a lack of access to healthy foods and health risks, including obesity.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
