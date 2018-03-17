@@ -91,4 +91,5 @@ function focusOn(i) {
     console.log(pos);
     map.setCenter(pos);
     map.setZoom(17);
+    window.scrollTo(0, mapDiv.offsetTop - 100);
 }
